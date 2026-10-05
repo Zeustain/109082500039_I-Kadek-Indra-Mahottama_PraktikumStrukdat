@@ -325,10 +325,9 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_1](https://github.com/Zeustain/109082500039_I-Kadek-Indra-Mahottama_PraktikumStrukdat/blob/eae64ac98089c7f6dca90b0ea152a9ea849d380e/Pertemuan%202/Unguide/Screenshoot%20hasil/Unguided/unguided%201_1.png)
 
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/Zeustain/109082500039_I-Kadek-Indra-Mahottama_PraktikumStrukdat/blob/eae64ac98089c7f6dca90b0ea152a9ea849d380e/Pertemuan%202/Unguide/Screenshoot%20hasil/Unguided/unguided%201_2.png)
 
 Program ini bertujuan untuk mensimulasikan kalkulator matriks sederhana yang mampu melakukan operasi penjumlahan, pengurangan, dan perkalian pada dua matriks berukuran 3x3. Dalam kode yang saya buat, program pertama-tama akan meminta pengguna untuk menginputkan nilai secara manual untuk setiap elemen baris dan kolom pada Matriks 1 dan Matriks 2 dengan bantuan *nested loop*. Setelah matriks berhasil disusun dan dicetak ke layar, alur logika dilanjutkan dengan menghitung operasi matematisnya. Untuk penjumlahan dan pengurangan, saya memproses elemen-elemen yang berada pada posisi indeks yang sama secara langsung di dalam perintah `cout`. Khusus untuk operasi perkalian, saya menambahkan tingkat perulangan ketiga (variabel `k`) untuk menjalankan rumus aljabar linear yaitu mengalikan setiap elemen baris dari matriks pertama dengan elemen kolom dari matriks kedua, lalu menjumlahkan dan mencetak hasil kalinya.
 
@@ -368,10 +367,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_1](https://github.com/Zeustain/109082500039_I-Kadek-Indra-Mahottama_PraktikumStrukdat/blob/eae64ac98089c7f6dca90b0ea152a9ea849d380e/Pertemuan%202/Unguide/Screenshoot%20hasil/Unguided/unguidedd%202.png)
 
 Program ini berfungsi untuk menukar (menggeser secara memutar) nilai dari tiga variabel yang berbeda dengan mengimplementasikan metode manipulasi alamat memori atau *Call by Pointer*. Dalam kode ini, saya merancang fungsi `tukarTigaPointer` yang menerima parameter bertipe pointer (`*x`, `*y`, `*z`). Di dalam fungsi tersebut, saya mendefinisikan sebuah variabel penyimpan sementara (`temp`) untuk mengamankan nilai awal, sehingga setiap nilai variabel dapat digeser dan ditimpa secara berurutan. Saat fungsi ini dipanggil di dalam fungsi `main`, saya harus melampirkan operator ampersand (`&`) di depan variabel asli (`&a, &b, &c`) agar program mengirimkan referensi alamat memorinya, bukan sekadar salinan nilainya. Hal ini menjamin nilai asli di dalam fungsi `main` ikut berubah dan tertukar setelah eksekusi fungsi selesai.
 
@@ -455,11 +451,9 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_1](https://github.com/Zeustain/109082500039_I-Kadek-Indra-Mahottama_PraktikumStrukdat/blob/eae64ac98089c7f6dca90b0ea152a9ea849d380e/Pertemuan%202/Unguide/Screenshoot%20hasil/Unguided/unguided%203_1.png)
 
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_2](https://github.com/Zeustain/109082500039_I-Kadek-Indra-Mahottama_PraktikumStrukdat/blob/eae64ac98089c7f6dca90b0ea152a9ea849d380e/Pertemuan%202/Unguide/Screenshoot%20hasil/Unguided/unguided%203_2.png)
 
 Program ini bertujuan untuk membangun sebuah sistem menu interaktif yang dapat memproses dan mengekstraksi informasi matematis dasar dari sebuah array satu dimensi yang bersifat statis. Untuk menyusun program secara terstruktur (modular), saya memisahkan logika pencarian batas nilai ke dalam dua fungsi bertipe `int` yaitu `cariMinimum()` dan `cariMaksimum()` yang akan mengembalikan nilai, serta mendefinisikan sebuah prosedur (fungsi bertipe `void`) bernama `hitungRataRata()` yang akan mengakumulasi total elemen dan langsung mencetak nilai rata-ratanya ke layar. Pada bagian fungsi utama (`main`), saya menggunakan perulangan `do-while` bersama dengan instruksi pemilihan `switch-case` agar program dapat terus menampilkan antar-muka (*interface*) menu dan mengeksekusi pilihan pengguna selama mereka tidak memasukkan angka 0 sebagai perintah keluar.
 
