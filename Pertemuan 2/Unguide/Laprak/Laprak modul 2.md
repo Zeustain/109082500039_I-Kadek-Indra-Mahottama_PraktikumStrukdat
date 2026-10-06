@@ -232,6 +232,65 @@ int main() {
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
 }
+
+
+// BY REFERENCE
+// #include <iostream>
+// using namespace std;
+
+// void tukar(int &x, int &y) {
+//     int temp;
+//     temp = x;
+//     x = y;
+//     y = temp;
+// }
+
+// int main() {
+//     int a = 4;
+//     int b = 6;
+
+//     cout << "Sebelum ditukar: " << endl;
+//     cout << "a = " << a << endl;
+//     cout << "b = " << b << endl;
+
+//     tukar(a, b); 
+
+//     cout << "\nSetelah ditukar: " << endl;
+//     cout << "a = " << a << endl;
+//     cout << "b = " << b << endl;
+    
+//     return 0;
+// }
+
+//BY VALUE
+// #include <iostream>
+// using namespace std;
+
+// void tukar(int x, int y) {
+//     int temp;
+//     temp = x;
+//     x = y;
+//     y = temp;
+// }
+
+// int main() {
+//     int a = 4;
+//     int b = 6;
+
+//     cout << "Sebelum ditukar: " << endl;
+//     cout << "a = " << a << endl;
+//     cout << "b = " << b << endl;
+
+//     // Memanggil fungsi dengan mengirimkan nilainya saja
+//     tukar(a, b);
+
+//     // Hasil print di bawah ini angkanya akan tetap a = 4 dan b = 6
+//     cout << "\nSetelah ditukar: " << endl;
+//     cout << "a = " << a << endl;
+//     cout << "b = " << b << endl;
+    
+//     return 0;
+// }
 ```
 Program ini menunjukkan penerapan *Call by Pointer, Reference, Value* untuk menukar dua nilai. Dengan meneruskan alamat memori (menggunakan `&a`, `&b`) ke fungsi yang memiliki parameter pointer (`*x`, `*y`), perubahan yang terjadi di dalam fungsi `tukar` akan langsung berdampak pada variabel asli `a` dan `b` di fungsi `main`.
 

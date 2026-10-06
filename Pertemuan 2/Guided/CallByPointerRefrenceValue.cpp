@@ -45,7 +45,7 @@ int main() {
 //     cout << "a = " << a << endl;
 //     cout << "b = " << b << endl;
 
-//     tukar(a, b);
+//     tukar(a, b); 
 
 //     cout << "\nSetelah ditukar: " << endl;
 //     cout << "a = " << a << endl;
