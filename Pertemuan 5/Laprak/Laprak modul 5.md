@@ -577,8 +577,14 @@ int main() {
 
 ### Output Unguided 1 :
 
-##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Zeustain/109082500039_I-Kadek-Indra-Mahottama_PraktikumStrukdat/blob/main/Pertemuan%205/Screeshoot%20output/ouput%20no%204.png?raw=true)
+##### Output no 2
+![Screenshot Output Unguided 1_2](https://github.com/Zeustain/109082500039_I-Kadek-Indra-Mahottama_PraktikumStrukdat/blob/main/Pertemuan%205/Screeshoot%20output/output%20no%202.png?raw=true)
+
+##### Output no 3
+![Screenshot Output Unguided 1_3](https://github.com/Zeustain/109082500039_I-Kadek-Indra-Mahottama_PraktikumStrukdat/blob/main/Pertemuan%205/Screeshoot%20output/output%20no%203.png?raw=true)
+
+##### Output no 4
+![Screenshot Output Unguided 1_4](https://github.com/Zeustain/109082500039_I-Kadek-Indra-Mahottama_PraktikumStrukdat/blob/main/Pertemuan%205/Screeshoot%20output/ouput%20no%204.png?raw=true)
 
 Kode implementasi *unguided* ini merangkum penugasan terkait pembentukan susunan list dasar menggunakan *insertFirst* dengan data (9, 12, 8, 0, 2), yang disusul oleh metode penelusuran tingkat lanjut. Logika pada prosedur `findElm` akan melakukan perulangan dari elemen pertama (*First*) untuk mencocokkan parameter *value* `x` dengan isi data (`info`) pada *node*. Begitu data yang diminta (angka 8) berhasil dicocokkan, prosedur langsung menggunakan perintah `return P;` guna mendistribusikan alamat *node* aktual ke antarmuka `main.cpp`. Demikian halnya dengan fungsi `totalIsi`, yang tidak menunjuk pada satu nilai presisi spesifik, melainkan sengaja dirancang agar terus menerus bergerak mengitari iterasi dengan menambah/mengakumulasi (*increment total*) setiap data hingga akhir list untuk menghasilkan nilai total akhir 31.
 
